@@ -1,0 +1,56 @@
+.login-form {
+  background-color: aliceblue;
+  color: #333;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.form-group label {
+  color: #333;
+  font-weight: bold;
+}
+
+.form-control {
+  background-color: #fff;
+  border: none;
+  color: #333;
+}
+
+.form-control:focus {
+  background-color: #f2f2f2;
+  border-color: #6600cc;
+  box-shadow: none;
+  color: #333;
+}
+
+.form-control.is-invalid,
+.was-validated .form-control:invalid {
+  border-color: #dc3545;
+  background-color: #fff;
+  color: #333;
+}
+
+.form-control.is-invalid:focus,
+.was-validated .form-control:invalid:focus {
+  border-color: #dc3545;
+  background-color: #f2f2f2;
+  color: #333;
+  box-shadow: none;
+}
+
+.btn-primary {
+  background-color: #6e8cd7;
+  border: none;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #5d82df;
+  color: #fff;
+}
+
+.link:hover {
+  color: #3a66d8;
+}
